@@ -1,167 +1,115 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+h2, p {
+    color: rgb(41, 7, 73);
+}
+a {
+    text-decoration: none;
+}
+.basics {
+    width: 90%;
+    margin: 5px auto;
+}
+.logo {
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(41, 7, 73);
+}
+.tm {
+    font-size: 6px;
+    font-weight: 400;
+}
+.topnav, .navbar, .container, .second-line, .third-line, .third-line_header {
+    display: flex;
+    justify-content: space-between;
+}
+.third-line_header{
+    padding: 15px 0px;
+    
+}
+.topnav {
+    padding: 15px 0px;
+    color: rgb(41, 7, 73);
+}
+.navbar {
+    width: 300px;
+}
 .container {
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
+    height: 80vh;
+    background-image: url('/img/firstimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-.topnav h1 {
-    float: left;
-    color: rgb(2, 2, 73);
+.basics-content {
+    width: 520px;
 }
-.topnav ul {
-    list-style-type: none;
-    margin: 2px 50px;
-    padding: 0;
-    float: right;
-    overflow: hidden;
+.description, .title {
+    margin-bottom: 10px;
 }
-li {
-    float: left;
-    margin: 7px 0;
-}
-li a {
-    margin: 5px 5px;
-    text-decoration: none;
-    color: rgb(2, 2, 73);
-}
-
-
-.textholder {
-    position: absolute;
-    bottom: 200px;
-    left: 16px;
-    width: 30%;
-    text-align: left;
-    margin: 0 20px;
-}
-
-.textholder h2 {
+.title {
     font-size: xx-large;
-    color: rgb(102, 7, 139);
 }
-
-.textholder p {
-    font-size: 5px 0;
-    color: rgb(120, 9, 148);
-}
-
-.Bg-img {
-    position: relative;
-    text-align: center;
-}
-
-.bck_img {
-    height: 500px;
-    width: 100%;
-    opacity: 0.6;
-}
-
-.second-line {
-    width: 100%;
-}
-
-.second-line h3 {
-    text-align: left;
-}
-
-.row {
-    float: left;
-    width: 37%;
-    margin: 10px 6px;
-}
-.row h2 {
-   margin: 5px 0;
-}
-.row p {
-    margin: 5px 0;
-}
- 
-.row-3 {
-    float: right;
-    width: 23%;
-    /* margin-left: 5px; */
-
-}
-
-.row-3i {
-    margin: 15px 3px;
-}
-
-.row-3i h2 {
-    margin: 5px 0;
-}
-
-.row-3i p {
-    margin: 6px 0;
-    text-align: left;
-}
-
-.row img {
-    width: 100%;
-}
-
-.Bg-img button {
-    margin: 5px;
-    background-color: rgb(96, 12, 175);
-    border: 1px white;
-    border-radius: 7px;
-    padding: 10px 20px;
-    text-align: center;
-}
-
-.row-link {
-    margin: 5px;
-    background-color: white;
-    border: 2px rgb(61, 3, 100);
-    border-radius: 7px;
-    color: rgb(96, 12, 175);
-    text-decoration: none; 
-    padding: 10px 20px;
-    text-align: center;
-}
- 
-.row button {
-    background-color: white;
-    border: 1px solid purple;
-    color: purple;
-    border-radius: 5px;
-    text-decoration: none;
-    padding: 10px 20px;
-    text-align: center;
-} 
-
-.row img {
-    width: 100%;
-    border: 3px solid white;
+.container_btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: blueviolet;
+    color: white;
     border-radius: 10px;
 }
-.clickme {
+.row-title {
+    font-size: 25px;
+}
+.row-title, .row-desc {
+    margin-bottom: 5px;
+}
+.row {
+    width: 35%;
+    height: 400px;
+}
+.row img {
+    width: 100%;
+    border-radius: 10px;
     margin: 5px;
-    background-color: white;
+    height: 250px;
 }
 
-.row-3i_link {
-    color: blueviolet;
-}
-
-.container_btn {
-    text-decoration: none;
-    color: white;
-}
-.third-line{
-    width: 100%;
-    margin: 5px 13px;
-}
-.row_content{
+.row-content{
     width: 24%;
-    float: left;
-    margin: 5px 3px;
+    height: 400px;
+    /* margin: 27px 30px; */
 }
-.row_content img{
+.row a {
+    display: inline-block;
+    border: 1px solid rgb(63, 8, 116);
+    border-radius: 10px;
+    background-color: white;
+    color: blueviolet;
+    padding: 10px 20px;
+    margin: 5px;
+}
+.row-3i p {
+    margin: 5px;
+}
+.row-3i a {
+    margin: 7px;
+}
+
+.sec-content {
+    width: 24%;
+    height: 400px;
+}
+.sec-content img {
     width: 100%;
-    height: 350px;
-    border-radius: 5px;
+    border-radius: 10px;
+    height: 250px;
+    margin: 5px;
+
 }
